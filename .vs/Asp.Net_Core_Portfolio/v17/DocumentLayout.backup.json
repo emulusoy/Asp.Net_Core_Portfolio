@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9E57424F-D5E2-4C4E-BE80-B22969C728DC}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\emu\\source\\repos\\asp.net_core_portfolio\\businesslayer\\businesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{9E57424F-D5E2-4C4E-BE80-B22969C728DC}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\businesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{F6EB6CEC-662D-437F-9F1C-6E2528BDE6D8}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\emu\\source\\repos\\asp.net_core_portfolio\\dataaccesslayer\\abstract\\iservicedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6EB6CEC-662D-437F-9F1C-6E2528BDE6D8}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\abstract\\iservicedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6EB6CEC-662D-437F-9F1C-6E2528BDE6D8}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\emu\\source\\repos\\asp.net_core_portfolio\\dataaccesslayer\\entityframework\\efservicedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6EB6CEC-662D-437F-9F1C-6E2528BDE6D8}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\entityframework\\efservicedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6EB6CEC-662D-437F-9F1C-6E2528BDE6D8}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\emu\\source\\repos\\asp.net_core_portfolio\\dataaccesslayer\\entityframework\\efportfoliodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6EB6CEC-662D-437F-9F1C-6E2528BDE6D8}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\entityframework\\efportfoliodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6EB6CEC-662D-437F-9F1C-6E2528BDE6D8}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\emu\\source\\repos\\asp.net_core_portfolio\\dataaccesslayer\\entityframework\\efmessagedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6EB6CEC-662D-437F-9F1C-6E2528BDE6D8}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\entityframework\\efmessagedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6EB6CEC-662D-437F-9F1C-6E2528BDE6D8}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\emu\\source\\repos\\asp.net_core_portfolio\\dataaccesslayer\\entityframework\\effeaturedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6EB6CEC-662D-437F-9F1C-6E2528BDE6D8}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\entityframework\\effeaturedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6EB6CEC-662D-437F-9F1C-6E2528BDE6D8}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\emu\\source\\repos\\asp.net_core_portfolio\\dataaccesslayer\\entityframework\\efexperiencedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6EB6CEC-662D-437F-9F1C-6E2528BDE6D8}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\entityframework\\efexperiencedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6EB6CEC-662D-437F-9F1C-6E2528BDE6D8}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\emu\\source\\repos\\asp.net_core_portfolio\\dataaccesslayer\\entityframework\\efcontactdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6EB6CEC-662D-437F-9F1C-6E2528BDE6D8}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\entityframework\\efcontactdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6EB6CEC-662D-437F-9F1C-6E2528BDE6D8}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\emu\\source\\repos\\asp.net_core_portfolio\\dataaccesslayer\\entityframework\\efaboutdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6EB6CEC-662D-437F-9F1C-6E2528BDE6D8}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\entityframework\\efaboutdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +47,105 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BusinessLayer",
-              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\BusinessLayer\\BusinessLayer.csproj",
-              "RelativeDocumentMoniker": "BusinessLayer\\BusinessLayer.csproj",
-              "ToolTip": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\BusinessLayer\\BusinessLayer.csproj",
-              "RelativeToolTip": "BusinessLayer\\BusinessLayer.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-18T12:53:56.728Z",
+              "Title": "IServiceDal.cs",
+              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\DataAccessLayer\\Abstract\\IServiceDal.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Abstract\\IServiceDal.cs",
+              "ToolTip": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\DataAccessLayer\\Abstract\\IServiceDal.cs",
+              "RelativeToolTip": "DataAccessLayer\\Abstract\\IServiceDal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:31:02.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EfServiceDal.cs",
+              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\DataAccessLayer\\EntityFramework\\EfServiceDal.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\EntityFramework\\EfServiceDal.cs",
+              "ToolTip": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\DataAccessLayer\\EntityFramework\\EfServiceDal.cs",
+              "RelativeToolTip": "DataAccessLayer\\EntityFramework\\EfServiceDal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:30:18.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EfPortfolioDal.cs",
+              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\DataAccessLayer\\EntityFramework\\EfPortfolioDal.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\EntityFramework\\EfPortfolioDal.cs",
+              "ToolTip": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\DataAccessLayer\\EntityFramework\\EfPortfolioDal.cs",
+              "RelativeToolTip": "DataAccessLayer\\EntityFramework\\EfPortfolioDal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:29:53.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EfMessageDal.cs",
+              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\DataAccessLayer\\EntityFramework\\EfMessageDal.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\EntityFramework\\EfMessageDal.cs",
+              "ToolTip": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\DataAccessLayer\\EntityFramework\\EfMessageDal.cs",
+              "RelativeToolTip": "DataAccessLayer\\EntityFramework\\EfMessageDal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:29:28.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EfFeatureDal.cs",
+              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\DataAccessLayer\\EntityFramework\\EfFeatureDal.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\EntityFramework\\EfFeatureDal.cs",
+              "ToolTip": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\DataAccessLayer\\EntityFramework\\EfFeatureDal.cs",
+              "RelativeToolTip": "DataAccessLayer\\EntityFramework\\EfFeatureDal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:29:06.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EfExperienceDal.cs",
+              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\DataAccessLayer\\EntityFramework\\EfExperienceDal.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\EntityFramework\\EfExperienceDal.cs",
+              "ToolTip": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\DataAccessLayer\\EntityFramework\\EfExperienceDal.cs",
+              "RelativeToolTip": "DataAccessLayer\\EntityFramework\\EfExperienceDal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:28:45.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EfContactDal.cs",
+              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\DataAccessLayer\\EntityFramework\\EfContactDal.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\EntityFramework\\EfContactDal.cs",
+              "ToolTip": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\DataAccessLayer\\EntityFramework\\EfContactDal.cs",
+              "RelativeToolTip": "DataAccessLayer\\EntityFramework\\EfContactDal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:28:17.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EfAboutDal.cs",
+              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\DataAccessLayer\\EntityFramework\\EfAboutDal.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\EntityFramework\\EfAboutDal.cs",
+              "ToolTip": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\DataAccessLayer\\EntityFramework\\EfAboutDal.cs",
+              "RelativeToolTip": "DataAccessLayer\\EntityFramework\\EfAboutDal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:24:53.249Z",
               "EditorCaption": ""
             }
           ]
