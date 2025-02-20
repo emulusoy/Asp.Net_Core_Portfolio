@@ -7,7 +7,7 @@ using EntityLayer.Concrete;
 
 namespace DataAccessLayer.Abstract
 {
-    internal interface IServiceDal:IGenericDal<Service>
+    public interface IServiceDal:IGenericDal<Service>
     {
     }
 }

@@ -153,9 +153,7 @@ C:\Users\eMu\source\repos\Asp.Net_Core_Portfolio\Asp.Net_Core_Portfolio\obj\Debu
 C:\Users\eMu\source\repos\Asp.Net_Core_Portfolio\Asp.Net_Core_Portfolio\obj\Debug\net8.0\Asp.Net_Core_Portfolio.RazorAssemblyInfo.cache
 C:\Users\eMu\source\repos\Asp.Net_Core_Portfolio\Asp.Net_Core_Portfolio\obj\Debug\net8.0\Asp.Net_Core_Portfolio.RazorAssemblyInfo.cs
 C:\Users\eMu\source\repos\Asp.Net_Core_Portfolio\Asp.Net_Core_Portfolio\obj\Debug\net8.0\Asp.Net_Core_Portfolio.sourcelink.json
-C:\Users\eMu\source\repos\Asp.Net_Core_Portfolio\Asp.Net_Core_Portfolio\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\eMu\source\repos\Asp.Net_Core_Portfolio\Asp.Net_Core_Portfolio\obj\Debug\net8.0\scopedcss\bundle\Asp.Net_Core_Portfolio.styles.css
-C:\Users\eMu\source\repos\Asp.Net_Core_Portfolio\Asp.Net_Core_Portfolio\obj\Debug\net8.0\scopedcss\projectbundle\Asp.Net_Core_Portfolio.bundle.scp.css
 C:\Users\eMu\source\repos\Asp.Net_Core_Portfolio\Asp.Net_Core_Portfolio\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\eMu\source\repos\Asp.Net_Core_Portfolio\Asp.Net_Core_Portfolio\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\eMu\source\repos\Asp.Net_Core_Portfolio\Asp.Net_Core_Portfolio\obj\Debug\net8.0\staticwebassets.build.endpoints.json

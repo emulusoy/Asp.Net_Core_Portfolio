@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Asp.Net_Core_Portfolio.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Asp.Net_Core_Portfolio.0gu7em2yc5.bundle.scp.css"
-    },
-    {
       "Id": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\wwwroot\\Template\\LICENSE-free.txt",
       "PackagePath": "staticwebassets\\Template\\LICENSE-free.txt"
     },

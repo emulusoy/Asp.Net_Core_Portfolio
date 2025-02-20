@@ -1,17 +1,5 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/Asp.Net_Core_Portfolio/Asp.Net_Core_Portfolio.0gu7em2yc5.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Asp.Net_Core_Portfolio.0gu7em2yc5.bundle.scp.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0gu7em2yc5"},{"Name":"integrity","Value":"sha256-4Bvp/qQ87k0ihZL7pW7hdQXwaWfkMMREeb6f3l31U4M="},{"Name":"label","Value":"_content/Asp.Net_Core_Portfolio/Asp.Net_Core_Portfolio.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1140"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00224Bvp/qQ87k0ihZL7pW7hdQXwaWfkMMREeb6f3l31U4M=\u0022"},{"Name":"Last-Modified","Value":"Tue, 18 Feb 2025 13:17:09 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Asp.Net_Core_Portfolio/Asp.Net_Core_Portfolio.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Asp.Net_Core_Portfolio.0gu7em2yc5.bundle.scp.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4Bvp/qQ87k0ihZL7pW7hdQXwaWfkMMREeb6f3l31U4M="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1140"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00224Bvp/qQ87k0ihZL7pW7hdQXwaWfkMMREeb6f3l31U4M=\u0022"},{"Name":"Last-Modified","Value":"Tue, 18 Feb 2025 13:17:09 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Asp.Net_Core_Portfolio/css/site.c2tiyv64ts.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

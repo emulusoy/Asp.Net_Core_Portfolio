@@ -9,7 +9,7 @@ using EntityLayer.Concrete;
 
 namespace BusinessLayer.Concrete
 {
-    public class FeatureManager : IGenericService<Feature>
+    public class FeatureManager : IFeatureService
     {
         IFeatureDal _featureDal;
 
