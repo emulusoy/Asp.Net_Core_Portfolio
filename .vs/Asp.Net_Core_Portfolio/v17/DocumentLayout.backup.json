@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{868CD24D-0835-4A89-8656-2A121B824176}|Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio.csproj|c:\\users\\emu\\source\\repos\\asp.net_core_portfolio\\asp.net_core_portfolio\\views\\shared\\components\\skilllist\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{868CD24D-0835-4A89-8656-2A121B824176}|Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio.csproj|solutionrelative:asp.net_core_portfolio\\views\\shared\\components\\skilllist\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{868CD24D-0835-4A89-8656-2A121B824176}|Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio.csproj|c:\\users\\emu\\source\\repos\\asp.net_core_portfolio\\asp.net_core_portfolio\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{868CD24D-0835-4A89-8656-2A121B824176}|Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio.csproj|solutionrelative:asp.net_core_portfolio\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868CD24D-0835-4A89-8656-2A121B824176}|Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio.csproj|c:\\users\\emu\\source\\repos\\asp.net_core_portfolio\\asp.net_core_portfolio\\views\\shared\\components\\testimoniallist\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{868CD24D-0835-4A89-8656-2A121B824176}|Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio.csproj|solutionrelative:asp.net_core_portfolio\\views\\shared\\components\\testimoniallist\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDA8827-D31A-430B-A972-031DCC14A4D1}|EntityLayer\\EntityLayer.csproj|c:\\users\\emu\\source\\repos\\asp.net_core_portfolio\\entitylayer\\concrete\\testimonial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DDA8827-D31A-430B-A972-031DCC14A4D1}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\concrete\\testimonial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868CD24D-0835-4A89-8656-2A121B824176}|Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio.csproj|c:\\users\\emu\\source\\repos\\asp.net_core_portfolio\\asp.net_core_portfolio\\viewcomponents\\experience\\experiencelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868CD24D-0835-4A89-8656-2A121B824176}|Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio.csproj|solutionrelative:asp.net_core_portfolio\\viewcomponents\\experience\\experiencelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +31,54 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\Views\\Shared\\Components\\SkillList\\Default.cshtml",
-              "RelativeDocumentMoniker": "Asp.Net_Core_Portfolio\\Views\\Shared\\Components\\SkillList\\Default.cshtml",
-              "ToolTip": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\Views\\Shared\\Components\\SkillList\\Default.cshtml",
-              "RelativeToolTip": "Asp.Net_Core_Portfolio\\Views\\Shared\\Components\\SkillList\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-20T15:34:24.315Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\Views\\Default\\Index.cshtml",
               "RelativeDocumentMoniker": "Asp.Net_Core_Portfolio\\Views\\Default\\Index.cshtml",
               "ToolTip": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\Views\\Default\\Index.cshtml",
               "RelativeToolTip": "Asp.Net_Core_Portfolio\\Views\\Default\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-20T15:28:04.038Z",
+              "WhenOpened": "2025-03-03T20:41:12.998Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Testimonial.cs",
+              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\EntityLayer\\Concrete\\Testimonial.cs",
+              "RelativeDocumentMoniker": "EntityLayer\\Concrete\\Testimonial.cs",
+              "ToolTip": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\EntityLayer\\Concrete\\Testimonial.cs",
+              "RelativeToolTip": "EntityLayer\\Concrete\\Testimonial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T21:45:19.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\Views\\Shared\\Components\\TestimonialList\\Default.cshtml",
+              "RelativeDocumentMoniker": "Asp.Net_Core_Portfolio\\Views\\Shared\\Components\\TestimonialList\\Default.cshtml",
+              "ToolTip": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\Views\\Shared\\Components\\TestimonialList\\Default.cshtml",
+              "RelativeToolTip": "Asp.Net_Core_Portfolio\\Views\\Shared\\Components\\TestimonialList\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T21:40:37.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExperienceList.cs",
+              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\ViewComponents\\Experience\\ExperienceList.cs",
+              "RelativeDocumentMoniker": "Asp.Net_Core_Portfolio\\ViewComponents\\Experience\\ExperienceList.cs",
+              "ToolTip": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\ViewComponents\\Experience\\ExperienceList.cs",
+              "RelativeToolTip": "Asp.Net_Core_Portfolio\\ViewComponents\\Experience\\ExperienceList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T21:40:04.834Z",
               "EditorCaption": ""
             }
           ]
