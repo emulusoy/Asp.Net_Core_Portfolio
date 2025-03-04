@@ -28,6 +28,26 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
+[C:/Users/eMu/source/repos/Asp.Net_Core_Portfolio/Asp.Net_Core_Portfolio/Views/Admin/PartialFooter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGFydGlhbEZvb3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eMu/source/repos/Asp.Net_Core_Portfolio/Asp.Net_Core_Portfolio/Views/Admin/PartialHead.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGFydGlhbEhlYWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eMu/source/repos/Asp.Net_Core_Portfolio/Asp.Net_Core_Portfolio/Views/Admin/PartialNavBar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGFydGlhbE5hdkJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eMu/source/repos/Asp.Net_Core_Portfolio/Asp.Net_Core_Portfolio/Views/Admin/PartialScript.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGFydGlhbFNjcmlwdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eMu/source/repos/Asp.Net_Core_Portfolio/Asp.Net_Core_Portfolio/Views/Admin/PartialSideBar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGFydGlhbFNpZGVCYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/eMu/source/repos/Asp.Net_Core_Portfolio/Asp.Net_Core_Portfolio/Views/Default/HeaderPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxIZWFkZXJQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -42,6 +62,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/eMu/source/repos/Asp.Net_Core_Portfolio/Asp.Net_Core_Portfolio/Views/Default/SendMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxTZW5kTWVzc2FnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eMu/source/repos/Asp.Net_Core_Portfolio/Asp.Net_Core_Portfolio/Views/Feature/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVhdHVyZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/eMu/source/repos/Asp.Net_Core_Portfolio/Asp.Net_Core_Portfolio/Views/Shared/Components/AboutList/Default.cshtml]
@@ -78,4 +102,12 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/eMu/source/repos/Asp.Net_Core_Portfolio/Asp.Net_Core_Portfolio/Views/Shared/Components/TestimonialList/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVGVzdGltb25pYWxMaXN0XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eMu/source/repos/Asp.Net_Core_Portfolio/Asp.Net_Core_Portfolio/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eMu/source/repos/Asp.Net_Core_Portfolio/Asp.Net_Core_Portfolio/Views/Skill/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2tpbGxcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

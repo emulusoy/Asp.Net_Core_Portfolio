@@ -1,0 +1,53 @@
+﻿@using EntityLayer.Concrete
+@model List<Skill>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="card-header bg-transparent border-0">
+    <h3 class="text-white mb-0">My Skills </h3>
+</div>
+<div class="table-responsive">
+    <br />
+    <a href="#" class="btn btn-outline-dark">Add Skill</a>
+    <br />
+    <table class="table align-items-center table-dark table-flush">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col" class="sort" data-sort="name">#</th>
+                <th scope="col" class="sort" data-sort="budget">Title</th>
+                <th scope="col" class="sort" data-sort="status">Ratio</th>
+                <th scope="col">Edit</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody class="list">
+                @foreach (var item in Model)
+                {
+            <tr>
+                <td>
+                    @item.SkillID
+                </td>
+                <td class="budget">
+                    @item.SkillTitle
+                </td>
+                <td>
+                    <div class="d-flex align-items-center">
+                        <span class="completion mr-2">@item.SkillValue%</span>
+                        <div>
+                            <div class="progress">
+                                    <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="@item.SkillValue" aria-valuemin="0" aria-valuemax="100" style="width: @item.SkillValue%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </td> 
+                <td>
+                    <a href="#" class="btn btn-outline-danger">Delete</a>
+                    <a href="#" class="btn btn-outline-light">Update</a>
+                </td>
+            </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
