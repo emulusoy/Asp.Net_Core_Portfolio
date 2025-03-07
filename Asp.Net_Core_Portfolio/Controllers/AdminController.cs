@@ -24,6 +24,10 @@ namespace Asp.Net_Core_Portfolio.Controllers
         {
             return PartialView();
         }
+        public PartialViewResult NavigationPartial()
+        {
+            return PartialView();
+        }
 
     }
 }

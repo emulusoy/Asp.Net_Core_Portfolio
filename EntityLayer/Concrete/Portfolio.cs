@@ -15,5 +15,13 @@ namespace EntityLayer.Concrete
         public string PortfolioImageUrl { get; set; }
         public string PortfolioProjectUrl { get; set; }
         public string PortfolioImageUrl2 { get; set; }
+        public string PortfolioPlatform { get; set; }
+        public string PortfolioFee { get; set; }
+        public bool PortfolioStatus { get; set; }
+        public string PortfolioImg1 { get; set; }
+        public string PortfolioImg2 { get; set; }
+        public string PortfolioImg3 { get; set; }
+        public string PortfolioImg4 { get; set; }
+        public int PortfolioValue { get; set; }
     }
 }
