@@ -1,0 +1,45 @@
+﻿@model EntityLayer.Concrete.About
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<div class="card-header border-0">
+    <h3 class="mb-0">About Page</h3>
+</div>
+<br />
+<br />
+<br />
+
+
+@using (Html.BeginForm("Index", "About", FormMethod.Post))
+{
+
+    @Html.HiddenFor(x => x.AboutID)
+    @Html.Label("AboutTitle")
+    @Html.TextBoxFor(x => x.AboutTitle, new { @class = "form-control" })
+    <br>
+    @Html.Label("AboutAge")
+    @Html.TextBoxFor(x => x.AboutAge, new { @class = "form-control" })
+    <br />
+    @Html.Label("AboutMail")
+    @Html.TextBoxFor(x => x.AboutMail, new { @class = "form-control" })
+    <br />
+    @Html.Label("AboutPhone")
+    @Html.TextBoxFor(x => x.AboutPhone, new { @class = "form-control" })
+    <br />
+    @Html.Label("AboutAddress")
+    @Html.TextBoxFor(x => x.AboutAddress, new { @class = "form-control" })
+    <br />
+    @Html.Label("AboutImageUrl")
+    @Html.TextBoxFor(x => x.AboutImageUrl, new { @class = "form-control" })
+    <br />
+    @Html.Label("AboutDescription")
+    @Html.TextAreaFor(x => x.AboutDescription, new { @class = "form-control" })
+    <br />
+
+    <button class="btn btn-outline-dark">Edit</button>
+}
+
