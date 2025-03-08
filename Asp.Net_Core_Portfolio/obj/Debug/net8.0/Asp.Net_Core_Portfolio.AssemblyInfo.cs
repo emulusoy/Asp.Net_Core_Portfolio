@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Asp.Net_Core_Portfolio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+167d353e2c011315aaf3ddc45db63e6ee0bf0f72")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c8687c81d938582ab440171eadb65a1550f65ee")]
 [assembly: System.Reflection.AssemblyProductAttribute("Asp.Net_Core_Portfolio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Asp.Net_Core_Portfolio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
