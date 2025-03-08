@@ -1,17 +1,8 @@
 ﻿@model EntityLayer.Concrete.Feature
 @{
     ViewData["Title"] = "Index";
-    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    Layout = "~/Views/Shared/_AdminLayoutPage.cshtml";
 }
-
-<div class="card-header border-0">
-    <h3 class="mb-0">Feature Page</h3>
-</div>
-<br />
-<br />
-<br />
-
-
 @using (Html.BeginForm("Index", "Feature", FormMethod.Post))
 {
 
@@ -25,6 +16,6 @@
     @Html.Label("Title")
     @Html.TextBoxFor(x => x.FeatureTitle, new { @class = "form-control" })
     <br />
-    <button class="btn btn-outline-dark">Edit</button>
+    <button class="btn alert-light">Edit</button>
 }
 

@@ -1,26 +1,28 @@
 ﻿
 @{
     ViewData["Title"] = "AddSkill";
-    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    Layout = "~/Views/Shared/_AdminLayoutPage.cshtml";
 }
+@using (Html.BeginForm("AddSkill", "Skill", FormMethod.Post))
+{
 
-<br />
-<br />
-<br />
-<br />
-
-
-<form class="form-control" method="post">
-
-    @Html.Label("Skill Title")
-    <input type="text" name="SkillTitle" class="form-control"/>
-    <br>
-    @Html.Label("Skill Value")
-    <input type="text" name="SkillValue" class="form-control" />
-    <br />
-    <button class="btn btn-outline-dark">Add</button>
-</form>
-<br />
-<br />
-<br />
-<br />
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Add Skill!</h4>
+                <form class="forms-sample">
+                    <div class="form-group">
+                        <label>Title</label>
+                        <input type="text" class="form-control" name="SkillTitle">
+                    </div>
+                    <div class="form-group">
+                        <label>Date</label>
+                        <input type="text" class="form-control" name="SkillValue">
+                    </div>
+                    <button type="submit" class="btn btn-primary mr-2">Add</button>
+                    <button class="btn btn-dark">Cancel</button>
+                </form>
+            </div>
+        </div>
+    </div>
+}
