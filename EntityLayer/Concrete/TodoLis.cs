@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EntityLayer.Concrete
 {
-    public class Todo
+    public class TodoLis
     {
         [Key]
         public int TodoID { get; set; }
