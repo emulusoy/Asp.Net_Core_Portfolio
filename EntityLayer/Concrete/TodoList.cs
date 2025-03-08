@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace EntityLayer.Concrete
 {
-    public class TodoLis
+    public class TodoList
     {
         [Key]
-        public int TodoID { get; set; }
-        public string TodoContent { get; set; }
-        public bool TodoStatus { get; set; }
+        public int TodoId { get; set; }
+        public string ToDoContent { get; set; }
+        public bool ToDoStatus { get; set; }
     }
 }

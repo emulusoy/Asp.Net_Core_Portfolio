@@ -339,24 +339,44 @@ namespace DataAccessLayer.Migrations
                     b.ToTable("Testimonials");
                 });
 
-            modelBuilder.Entity("EntityLayer.Concrete.TodoLis", b =>
+            modelBuilder.Entity("EntityLayer.Concrete.To", b =>
                 {
-                    b.Property<int>("TodoID")
+                    b.Property<int>("ToID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TodoID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ToID"));
 
-                    b.Property<string>("TodoContent")
+                    b.Property<string>("ToContent")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<bool>("TodoStatus")
+                    b.Property<bool>("ToStatus")
                         .HasColumnType("bit");
 
-                    b.HasKey("TodoID");
+                    b.HasKey("ToID");
 
-                    b.ToTable("TodoLiss");
+                    b.ToTable("Tos");
+                });
+
+            modelBuilder.Entity("EntityLayer.Concrete.TodoList", b =>
+                {
+                    b.Property<int>("TodoId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TodoId"));
+
+                    b.Property<string>("ToDoContent")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("ToDoStatus")
+                        .HasColumnType("bit");
+
+                    b.HasKey("TodoId");
+
+                    b.ToTable("TodoLists");
                 });
 
             modelBuilder.Entity("EntityLayer.Concrete.User", b =>

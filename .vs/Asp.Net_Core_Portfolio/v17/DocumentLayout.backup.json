@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F6EB6CEC-662D-437F-9F1C-6E2528BDE6D8}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\emu\\source\\repos\\asp.net_core_portfolio\\dataaccesslayer\\migrations\\20250308214451_add_todo_listesi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6EB6CEC-662D-437F-9F1C-6E2528BDE6D8}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\migrations\\20250308214451_add_todo_listesi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6EB6CEC-662D-437F-9F1C-6E2528BDE6D8}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\emu\\source\\repos\\asp.net_core_portfolio\\dataaccesslayer\\migrations\\20250303204901_mig_add_collumn_portfolio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6EB6CEC-662D-437F-9F1C-6E2528BDE6D8}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\migrations\\20250303204901_mig_add_collumn_portfolio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6EB6CEC-662D-437F-9F1C-6E2528BDE6D8}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\emu\\source\\repos\\asp.net_core_portfolio\\dataaccesslayer\\concrete\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6EB6CEC-662D-437F-9F1C-6E2528BDE6D8}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\concrete\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DDA8827-D31A-430B-A972-031DCC14A4D1}|EntityLayer\\EntityLayer.csproj|c:\\users\\emu\\source\\repos\\asp.net_core_portfolio\\entitylayer\\concrete\\todolis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DDA8827-D31A-430B-A972-031DCC14A4D1}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\concrete\\todolis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{868CD24D-0835-4A89-8656-2A121B824176}|Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio.csproj|c:\\users\\emu\\source\\repos\\asp.net_core_portfolio\\asp.net_core_portfolio\\views\\shared\\_adminlayoutpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{868CD24D-0835-4A89-8656-2A121B824176}|Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio.csproj|solutionrelative:asp.net_core_portfolio\\views\\shared\\_adminlayoutpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{868CD24D-0835-4A89-8656-2A121B824176}|Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio.csproj|c:\\users\\emu\\source\\repos\\asp.net_core_portfolio\\asp.net_core_portfolio\\views\\shared\\components\\tolistpanel\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{868CD24D-0835-4A89-8656-2A121B824176}|Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio.csproj|solutionrelative:asp.net_core_portfolio\\views\\shared\\components\\tolistpanel\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{868CD24D-0835-4A89-8656-2A121B824176}|Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio.csproj|c:\\users\\emu\\source\\repos\\asp.net_core_portfolio\\asp.net_core_portfolio\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{868CD24D-0835-4A89-8656-2A121B824176}|Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio.csproj|solutionrelative:asp.net_core_portfolio\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E57424F-D5E2-4C4E-BE80-B22969C728DC}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\emu\\source\\repos\\asp.net_core_portfolio\\businesslayer\\concrete\\itomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E57424F-D5E2-4C4E-BE80-B22969C728DC}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\concrete\\itomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868CD24D-0835-4A89-8656-2A121B824176}|Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio.csproj|c:\\users\\emu\\source\\repos\\asp.net_core_portfolio\\asp.net_core_portfolio\\viewcomponents\\dashboard\\tolistpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868CD24D-0835-4A89-8656-2A121B824176}|Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio.csproj|solutionrelative:asp.net_core_portfolio\\viewcomponents\\dashboard\\tolistpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E57424F-D5E2-4C4E-BE80-B22969C728DC}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\emu\\source\\repos\\asp.net_core_portfolio\\businesslayer\\abstract\\itoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E57424F-D5E2-4C4E-BE80-B22969C728DC}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\abstract\\itoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6EB6CEC-662D-437F-9F1C-6E2528BDE6D8}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\emu\\source\\repos\\asp.net_core_portfolio\\dataaccesslayer\\entityframework\\eftodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6EB6CEC-662D-437F-9F1C-6E2528BDE6D8}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\entityframework\\eftodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6EB6CEC-662D-437F-9F1C-6E2528BDE6D8}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\emu\\source\\repos\\asp.net_core_portfolio\\dataaccesslayer\\abstract\\itodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6EB6CEC-662D-437F-9F1C-6E2528BDE6D8}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\abstract\\itodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868CD24D-0835-4A89-8656-2A121B824176}|Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio.csproj|c:\\users\\emu\\source\\repos\\asp.net_core_portfolio\\asp.net_core_portfolio\\views\\shared\\_adminlayoutpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{868CD24D-0835-4A89-8656-2A121B824176}|Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio.csproj|solutionrelative:asp.net_core_portfolio\\views\\shared\\_adminlayoutpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,17 +42,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "_AdminLayoutPage.cshtml",
               "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\Views\\Shared\\_AdminLayoutPage.cshtml",
               "RelativeDocumentMoniker": "Asp.Net_Core_Portfolio\\Views\\Shared\\_AdminLayoutPage.cshtml",
               "ToolTip": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\Views\\Shared\\_AdminLayoutPage.cshtml",
               "RelativeToolTip": "Asp.Net_Core_Portfolio\\Views\\Shared\\_AdminLayoutPage.cshtml",
-              "ViewState": "AgIAAN4AAAAAAAAAAAAAAAABAABMAAAAAAAAAA==",
+              "ViewState": "AgIAALcAAAAAAAAAAAAAAAABAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-08T09:24:17.399Z",
               "IsPinned": true,
@@ -52,16 +60,17 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\Views\\Dashboard\\Index.cshtml",
               "RelativeDocumentMoniker": "Asp.Net_Core_Portfolio\\Views\\Dashboard\\Index.cshtml",
               "ToolTip": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\Views\\Dashboard\\Index.cshtml",
               "RelativeToolTip": "Asp.Net_Core_Portfolio\\Views\\Dashboard\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAswEsAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-08T13:45:26.065Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -69,54 +78,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20250303204901_mig_add_collumn_portfolio.cs",
-              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\DataAccessLayer\\Migrations\\20250303204901_mig_add_collumn_portfolio.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Migrations\\20250303204901_mig_add_collumn_portfolio.cs",
-              "ToolTip": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\DataAccessLayer\\Migrations\\20250303204901_mig_add_collumn_portfolio.cs",
-              "RelativeToolTip": "DataAccessLayer\\Migrations\\20250303204901_mig_add_collumn_portfolio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T21:54:25.637Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20250308214451_add_TODO_listesi.cs",
-              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\DataAccessLayer\\Migrations\\20250308214451_add_TODO_listesi.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Migrations\\20250308214451_add_TODO_listesi.cs",
-              "ToolTip": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\DataAccessLayer\\Migrations\\20250308214451_add_TODO_listesi.cs",
-              "RelativeToolTip": "DataAccessLayer\\Migrations\\20250308214451_add_TODO_listesi.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T21:44:51.895Z",
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\Views\\Shared\\Components\\ToListPanel\\Default.cshtml",
+              "RelativeDocumentMoniker": "Asp.Net_Core_Portfolio\\Views\\Shared\\Components\\ToListPanel\\Default.cshtml",
+              "ToolTip": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\Views\\Shared\\Components\\ToListPanel\\Default.cshtml",
+              "RelativeToolTip": "Asp.Net_Core_Portfolio\\Views\\Shared\\Components\\ToListPanel\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T22:14:32.233Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "TodoLis.cs",
-              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\EntityLayer\\Concrete\\TodoLis.cs",
-              "RelativeDocumentMoniker": "EntityLayer\\Concrete\\TodoLis.cs",
-              "ToolTip": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\EntityLayer\\Concrete\\TodoLis.cs",
-              "RelativeToolTip": "EntityLayer\\Concrete\\TodoLis.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Title": "ToListPanel.cs",
+              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\ViewComponents\\Dashboard\\ToListPanel.cs",
+              "RelativeDocumentMoniker": "Asp.Net_Core_Portfolio\\ViewComponents\\Dashboard\\ToListPanel.cs",
+              "ToolTip": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\ViewComponents\\Dashboard\\ToListPanel.cs",
+              "RelativeToolTip": "Asp.Net_Core_Portfolio\\ViewComponents\\Dashboard\\ToListPanel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T21:42:56.341Z",
+              "WhenOpened": "2025-03-08T22:12:16.981Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Context.cs",
-              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\DataAccessLayer\\Concrete\\Context.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Concrete\\Context.cs",
-              "ToolTip": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\DataAccessLayer\\Concrete\\Context.cs",
-              "RelativeToolTip": "DataAccessLayer\\Concrete\\Context.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Title": "IToManager.cs",
+              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\BusinessLayer\\Concrete\\IToManager.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Concrete\\IToManager.cs",
+              "ToolTip": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\BusinessLayer\\Concrete\\IToManager.cs",
+              "RelativeToolTip": "BusinessLayer\\Concrete\\IToManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T21:38:51.758Z",
+              "WhenOpened": "2025-03-08T22:09:52.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IToService.cs",
+              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\BusinessLayer\\Abstract\\IToService.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Abstract\\IToService.cs",
+              "ToolTip": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\BusinessLayer\\Abstract\\IToService.cs",
+              "RelativeToolTip": "BusinessLayer\\Abstract\\IToService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T22:09:19.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EfToDal.cs",
+              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\DataAccessLayer\\EntityFramework\\EfToDal.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\EntityFramework\\EfToDal.cs",
+              "ToolTip": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\DataAccessLayer\\EntityFramework\\EfToDal.cs",
+              "RelativeToolTip": "DataAccessLayer\\EntityFramework\\EfToDal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T22:08:27.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IToDal.cs",
+              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\DataAccessLayer\\Abstract\\IToDal.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Abstract\\IToDal.cs",
+              "ToolTip": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\DataAccessLayer\\Abstract\\IToDal.cs",
+              "RelativeToolTip": "DataAccessLayer\\Abstract\\IToDal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T22:07:59.481Z",
               "EditorCaption": ""
             }
           ]

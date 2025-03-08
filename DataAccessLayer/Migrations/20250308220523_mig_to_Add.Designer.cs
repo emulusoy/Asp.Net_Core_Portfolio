@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataAccessLayer.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20250308214451_add_TODO_listesi")]
-    partial class add_TODO_listesi
+    [Migration("20250308220523_mig_to_Add")]
+    partial class mig_to_Add
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -342,24 +342,44 @@ namespace DataAccessLayer.Migrations
                     b.ToTable("Testimonials");
                 });
 
-            modelBuilder.Entity("EntityLayer.Concrete.TodoLis", b =>
+            modelBuilder.Entity("EntityLayer.Concrete.To", b =>
                 {
-                    b.Property<int>("TodoID")
+                    b.Property<int>("ToID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TodoID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ToID"));
 
-                    b.Property<string>("TodoContent")
+                    b.Property<string>("ToContent")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<bool>("TodoStatus")
+                    b.Property<bool>("ToStatus")
                         .HasColumnType("bit");
 
-                    b.HasKey("TodoID");
+                    b.HasKey("ToID");
 
-                    b.ToTable("TodoLiss");
+                    b.ToTable("Tos");
+                });
+
+            modelBuilder.Entity("EntityLayer.Concrete.TodoList", b =>
+                {
+                    b.Property<int>("TodoId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TodoId"));
+
+                    b.Property<string>("ToDoContent")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("ToDoStatus")
+                        .HasColumnType("bit");
+
+                    b.HasKey("TodoId");
+
+                    b.ToTable("TodoLists");
                 });
 
             modelBuilder.Entity("EntityLayer.Concrete.User", b =>
