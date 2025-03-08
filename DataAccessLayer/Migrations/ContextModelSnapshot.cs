@@ -339,7 +339,7 @@ namespace DataAccessLayer.Migrations
                     b.ToTable("Testimonials");
                 });
 
-            modelBuilder.Entity("EntityLayer.Concrete.TodoList", b =>
+            modelBuilder.Entity("EntityLayer.Concrete.Todo", b =>
                 {
                     b.Property<int>("TodoID")
                         .ValueGeneratedOnAdd()
@@ -356,7 +356,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasKey("TodoID");
 
-                    b.ToTable("TodoLists");
+                    b.ToTable("Todos");
                 });
 
             modelBuilder.Entity("EntityLayer.Concrete.User", b =>
