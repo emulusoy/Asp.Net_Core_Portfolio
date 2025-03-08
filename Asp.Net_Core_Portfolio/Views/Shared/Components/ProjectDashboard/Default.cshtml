@@ -1,0 +1,48 @@
+﻿@using EntityLayer.Concrete
+@model List<Portfolio>
+<div class="row ">
+    <div class="col-12 grid-margin">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Project List</h4>
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th> ##### </th>
+                                <th> Image </th>
+                                <th> Project Name </th>
+                                <th> Fee </th>
+                                <th> Ratio </th>
+                                <th> Payment Status </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                               
+                            <tr>
+                                <td>
+                                    @item.PortfolioID
+                                </td>
+                                <td>
+                                        <img src="@item.PortfolioImageUrl" />
+                                </td>
+                                <td>
+                                    <img src="assets/images/faces/face1.jpg" alt="image" />
+                                    <span class="pl-2">@item.PortfolioName</span>
+                                </td>
+                                <td> @item.PortfolioFee</td>
+                                <td> @item.PortfolioValue%</td>
+                                <td>
+                                    <div class="badge badge-outline-success">Approved</div>
+                                </td>
+                            </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
