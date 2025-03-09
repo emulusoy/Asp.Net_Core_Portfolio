@@ -1,0 +1,54 @@
+﻿
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Writer Panel</title>
+    <link rel="stylesheet" href="~/skydash/Template/vendors/feather/feather.css">
+    <link rel="stylesheet" href="~/skydash/Template/vendors/ti-icons/css/themify-icons.css">
+    <link rel="stylesheet" href="~/skydash/Template/vendors/css/vendor.bundle.base.css">
+    <link rel="stylesheet" href="~/skydash/Template/css/vertical-layout-light/style.css">
+
+    <link rel="shortcut icon" href="~/skydash/Template/images/favicon.png" />
+</head>
+
+<body>
+    <div class="container-scroller">
+
+        @await Html.PartialAsync("/Areas/Writer/Views/Default/_NavBarPartial.cshtml")
+
+        <div class="container-fluid page-body-wrapper">
+
+            @await Html.PartialAsync("/Areas/Writer/Views/Default/_SideBarPartial.cshtml")
+
+            <div class="main-panel">
+                <div class="content-wrapper">
+                    <div class="row">
+
+                        @RenderBody()
+                        
+
+                    </div>
+                </div>
+                <footer class="footer">
+                    <div class="d-sm-flex justify-content-center justify-content-sm-between">
+                        <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2021.  Premium <a href="https://www.bootstrapdash.com/" target="_blank">Bootstrap admin template</a> from BootstrapDash. All rights reserved.</span>
+                        <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Hand-crafted & made with <i class="ti-heart text-danger ml-1"></i></span>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <script src="~/skydash/Template/vendors/js/vendor.bundle.base.js"></script>
+    <script src="~/skydash/Template/js/off-canvas.js"></script>
+    <script src="~/skydash/Template/js/hoverable-collapse.js"></script>
+    <script src="~/skydash/Template/js/template.js"></script>
+    <script src="~/skydash/Template/js/settings.js"></script>
+    <script src="~/skydash/Template/js/todolist.js"></script>
+</body>
+
+</html>
