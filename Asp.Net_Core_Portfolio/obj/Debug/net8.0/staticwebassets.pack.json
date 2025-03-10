@@ -23169,6 +23169,10 @@
       "PackagePath": "staticwebassets\\skydash\\template\\vendors\\x-editable\\bootstrap-editable.min.js"
     },
     {
+      "Id": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\wwwroot\\userimage\\04105a6d-2ccd-40d4-a92c-b8008333eb20.png",
+      "PackagePath": "staticwebassets\\userimage\\04105a6d-2ccd-40d4-a92c-b8008333eb20.png"
+    },
+    {
       "Id": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\wwwroot\\userimage\\c63e624c-2467-4b19-b875-30d87a612e54.png",
       "PackagePath": "staticwebassets\\userimage\\c63e624c-2467-4b19-b875-30d87a612e54.png"
     },

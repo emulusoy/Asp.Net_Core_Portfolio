@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\DataAccessLayer\\Migrations\\20250310182249_mig_WriterMessageTable_contentupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataAccessLayer\\Migrations\\20250310182249_mig_WriterMessageTable_contentupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDA8827-D31A-430B-A972-031DCC14A4D1}|EntityLayer\\EntityLayer.csproj|c:\\users\\emu\\source\\repos\\asp.net_core_portfolio\\entitylayer\\concrete\\writermessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DDA8827-D31A-430B-A972-031DCC14A4D1}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\concrete\\writermessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6EB6CEC-662D-437F-9F1C-6E2528BDE6D8}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\emu\\source\\repos\\asp.net_core_portfolio\\dataaccesslayer\\concrete\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6EB6CEC-662D-437F-9F1C-6E2528BDE6D8}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\concrete\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{868CD24D-0835-4A89-8656-2A121B824176}|Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio.csproj|c:\\users\\emu\\source\\repos\\asp.net_core_portfolio\\asp.net_core_portfolio\\areas\\writer\\viewcomponents\\navbarphoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{868CD24D-0835-4A89-8656-2A121B824176}|Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio.csproj|solutionrelative:asp.net_core_portfolio\\areas\\writer\\viewcomponents\\navbarphoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,15 +34,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250310182249_mig_WriterMessageTable_contentupdate.cs",
+              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\DataAccessLayer\\Migrations\\20250310182249_mig_WriterMessageTable_contentupdate.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Migrations\\20250310182249_mig_WriterMessageTable_contentupdate.cs",
+              "ToolTip": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\DataAccessLayer\\Migrations\\20250310182249_mig_WriterMessageTable_contentupdate.cs",
+              "RelativeToolTip": "DataAccessLayer\\Migrations\\20250310182249_mig_WriterMessageTable_contentupdate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T18:22:49.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Context.cs",
+              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\DataAccessLayer\\Concrete\\Context.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Concrete\\Context.cs",
+              "ToolTip": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\DataAccessLayer\\Concrete\\Context.cs",
+              "RelativeToolTip": "DataAccessLayer\\Concrete\\Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T18:12:10.845Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "WriterMessage.cs",
+              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\EntityLayer\\Concrete\\WriterMessage.cs",
+              "RelativeDocumentMoniker": "EntityLayer\\Concrete\\WriterMessage.cs",
+              "ToolTip": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\EntityLayer\\Concrete\\WriterMessage.cs",
+              "RelativeToolTip": "EntityLayer\\Concrete\\WriterMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T18:11:06.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Default.cshtml",
               "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\Areas\\Writer\\Views\\Shared\\Components\\NavbarPhoto\\Default.cshtml",
               "RelativeDocumentMoniker": "Asp.Net_Core_Portfolio\\Areas\\Writer\\Views\\Shared\\Components\\NavbarPhoto\\Default.cshtml",
@@ -38,25 +89,24 @@
               "RelativeToolTip": "Asp.Net_Core_Portfolio\\Areas\\Writer\\Views\\Shared\\Components\\NavbarPhoto\\Default.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-10T16:17:45.072Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T16:17:45.072Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "NavbarPhoto.cs",
               "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\Areas\\Writer\\ViewComponents\\NavbarPhoto.cs",
               "RelativeDocumentMoniker": "Asp.Net_Core_Portfolio\\Areas\\Writer\\ViewComponents\\NavbarPhoto.cs",
               "ToolTip": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\Areas\\Writer\\ViewComponents\\NavbarPhoto.cs",
               "RelativeToolTip": "Asp.Net_Core_Portfolio\\Areas\\Writer\\ViewComponents\\NavbarPhoto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-10T16:13:52.604Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "_NavBarPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\Areas\\Writer\\Views\\Default\\_NavBarPartial.cshtml",
               "RelativeDocumentMoniker": "Asp.Net_Core_Portfolio\\Areas\\Writer\\Views\\Default\\_NavBarPartial.cshtml",
@@ -64,8 +114,7 @@
               "RelativeToolTip": "Asp.Net_Core_Portfolio\\Areas\\Writer\\Views\\Default\\_NavBarPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-10T14:49:34.814Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T14:49:34.814Z"
             }
           ]
         }

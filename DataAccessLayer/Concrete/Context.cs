@@ -33,6 +33,7 @@ namespace DataAccessLayer.Concrete
 
         public DbSet<To> Tos { get; set; }  
         public DbSet<Announcement> Announcements { get; set; }  
+        public DbSet<WriterMessage> WriterMessages { get; set; }  
 
 
 
