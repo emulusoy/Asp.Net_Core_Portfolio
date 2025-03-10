@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{868CD24D-0835-4A89-8656-2A121B824176}|Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio.csproj|c:\\users\\emu\\source\\repos\\asp.net_core_portfolio\\asp.net_core_portfolio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{868CD24D-0835-4A89-8656-2A121B824176}|Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio.csproj|solutionrelative:asp.net_core_portfolio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{868CD24D-0835-4A89-8656-2A121B824176}|Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio.csproj|c:\\users\\emu\\source\\repos\\asp.net_core_portfolio\\asp.net_core_portfolio\\areas\\writer\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{868CD24D-0835-4A89-8656-2A121B824176}|Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio.csproj|solutionrelative:asp.net_core_portfolio\\areas\\writer\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{868CD24D-0835-4A89-8656-2A121B824176}|Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio.csproj|c:\\users\\emu\\source\\repos\\asp.net_core_portfolio\\asp.net_core_portfolio\\areas\\writer\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{868CD24D-0835-4A89-8656-2A121B824176}|Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio.csproj|solutionrelative:asp.net_core_portfolio\\areas\\writer\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{868CD24D-0835-4A89-8656-2A121B824176}|Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio.csproj|c:\\users\\emu\\source\\repos\\asp.net_core_portfolio\\asp.net_core_portfolio\\areas\\writer\\models\\usereditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868CD24D-0835-4A89-8656-2A121B824176}|Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio.csproj|solutionrelative:asp.net_core_portfolio\\areas\\writer\\models\\usereditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{868CD24D-0835-4A89-8656-2A121B824176}|Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio.csproj|c:\\users\\emu\\source\\repos\\asp.net_core_portfolio\\asp.net_core_portfolio\\areas\\writer\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{868CD24D-0835-4A89-8656-2A121B824176}|Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio.csproj|solutionrelative:asp.net_core_portfolio\\areas\\writer\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{868CD24D-0835-4A89-8656-2A121B824176}|Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio.csproj|c:\\users\\emu\\source\\repos\\asp.net_core_portfolio\\asp.net_core_portfolio\\areas\\writer\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868CD24D-0835-4A89-8656-2A121B824176}|Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio.csproj|solutionrelative:asp.net_core_portfolio\\areas\\writer\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,41 +30,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\Program.cs",
-              "RelativeDocumentMoniker": "Asp.Net_Core_Portfolio\\Program.cs",
-              "ToolTip": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\Program.cs",
-              "RelativeToolTip": "Asp.Net_Core_Portfolio\\Program.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADkAAAAVAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "UserEditViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\Areas\\Writer\\Models\\UserEditViewModel.cs",
+              "RelativeDocumentMoniker": "Asp.Net_Core_Portfolio\\Areas\\Writer\\Models\\UserEditViewModel.cs",
+              "ToolTip": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\Areas\\Writer\\Models\\UserEditViewModel.cs",
+              "RelativeToolTip": "Asp.Net_Core_Portfolio\\Areas\\Writer\\Models\\UserEditViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T11:02:41.341Z",
+              "WhenOpened": "2025-03-10T12:36:11.051Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\Areas\\Writer\\Views\\Login\\Index.cshtml",
-              "RelativeDocumentMoniker": "Asp.Net_Core_Portfolio\\Areas\\Writer\\Views\\Login\\Index.cshtml",
-              "ToolTip": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\Areas\\Writer\\Views\\Login\\Index.cshtml",
-              "RelativeToolTip": "Asp.Net_Core_Portfolio\\Areas\\Writer\\Views\\Login\\Index.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAADgAAAAWAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\Areas\\Writer\\Views\\Profile\\Index.cshtml",
+              "RelativeDocumentMoniker": "Asp.Net_Core_Portfolio\\Areas\\Writer\\Views\\Profile\\Index.cshtml",
+              "ToolTip": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\Areas\\Writer\\Views\\Profile\\Index.cshtml",
+              "RelativeToolTip": "Asp.Net_Core_Portfolio\\Areas\\Writer\\Views\\Profile\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-10T10:49:55.394Z",
+              "WhenOpened": "2025-03-10T12:24:08.284Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\Areas\\Writer\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "Asp.Net_Core_Portfolio\\Areas\\Writer\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\Areas\\Writer\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "Asp.Net_Core_Portfolio\\Areas\\Writer\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA6AAAAAAAAAA==",
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\Areas\\Writer\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "Asp.Net_Core_Portfolio\\Areas\\Writer\\Controllers\\ProfileController.cs",
+              "ToolTip": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\Areas\\Writer\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "Asp.Net_Core_Portfolio\\Areas\\Writer\\Controllers\\ProfileController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T10:30:25.117Z",
+              "WhenOpened": "2025-03-10T12:23:21.169Z",
               "EditorCaption": ""
             }
           ]
