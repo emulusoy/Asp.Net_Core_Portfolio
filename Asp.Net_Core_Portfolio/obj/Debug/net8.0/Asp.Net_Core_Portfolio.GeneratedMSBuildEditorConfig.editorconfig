@@ -40,8 +40,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcV3JpdGVyXFZpZXdzXERlZmF1bHRcX1NpZGVCYXJQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/eMu/source/repos/Asp.Net_Core_Portfolio/Asp.Net_Core_Portfolio/Areas/Writer/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcV3JpdGVyXFZpZXdzXExvZ2luXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/eMu/source/repos/Asp.Net_Core_Portfolio/Asp.Net_Core_Portfolio/Areas/Writer/Views/Register/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcV3JpdGVyXFZpZXdzXFJlZ2lzdGVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eMu/source/repos/Asp.Net_Core_Portfolio/Asp.Net_Core_Portfolio/Areas/Writer/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcV3JpdGVyXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/eMu/source/repos/Asp.Net_Core_Portfolio/Asp.Net_Core_Portfolio/Views/About/Index.cshtml]
