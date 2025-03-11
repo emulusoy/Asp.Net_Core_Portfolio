@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using DataAccessLayer.Abstract;
@@ -19,6 +20,12 @@ namespace DataAccessLayer.Repository
 
             //Using anahtar sözcüğü otomatik olarak Dispose metodunu uygular. Dispose ile öğe kullanıldıktan hemen sonra bellekten atılır.
             // bir nevi kaynakları serbest bırakma işini garbage collectorden devralıp, iş biter bitmez yıkıcı metodun tetiklenmesini sağlıyoruz
+        }
+
+        public List<T> GetByFilter(Expression<Func<T, bool>> filter)
+        {
+           using var c=new Context();   
+            return c.Set<T>().Where(filter).ToList();//istedigim sarta gore listemleme
         }
 
         public T GetById(int id)
