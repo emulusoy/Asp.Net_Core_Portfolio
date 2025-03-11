@@ -23,6 +23,16 @@ namespace BusinessLayer.Concrete
             return _writerMessage.GetList();    
         }
 
+        public List<WriterMessage> GetListReceiverMessage(string p)
+        {
+             return _writerMessage.GetByFilter(x => x.Receiver == p);
+        }
+
+        public List<WriterMessage> GetListSendMessage(string p)
+        {
+            return _writerMessage.GetByFilter(x => x.Sender == p);
+        }
+
         public void TAdd(WriterMessage t)
         {
             _writerMessage.Insert(t);

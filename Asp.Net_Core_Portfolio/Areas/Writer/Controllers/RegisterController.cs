@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Asp.Net_Core_Portfolio.Areas.Writer.Controllers
 {
     [Area("Writer")]
+    [Route("Writer/[controller]/[action]")]
     public class RegisterController : Controller
     {
         private readonly UserManager<WriterUser> _userManager;

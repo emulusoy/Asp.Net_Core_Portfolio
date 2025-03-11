@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Asp.Net_Core_Portfolio.Areas.Writer.Controllers
 {
     [Area("Writer")]
+    [Route("Writer/[controller]/[action]")]
     public class LoginController : Controller
     {
         private readonly SignInManager<WriterUser> _signInManager;
@@ -20,21 +21,28 @@ namespace Asp.Net_Core_Portfolio.Areas.Writer.Controllers
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> SignIn(UserLoginViewModel p)
+        public async Task<IActionResult> Index(UserLoginViewModel p)
         {
-            if (ModelState.IsValid) 
+            if (ModelState.IsValid)
             {
                 var result = await _signInManager.PasswordSignInAsync(p.Username, p.Password, true, true);
-                if (result.Succeeded) 
-                { 
-                    return RedirectToAction("Index", "Default");   
+                if (result.Succeeded)
+                {
+                    return RedirectToAction(nameof(Index), "Profile");
                 }
                 else
                 {
-                    ModelState.AddModelError("", "Incorrect username or password");
+                    ModelState.AddModelError("", "Wrong username of password.");
                 }
+
+
             }
             return View();
+        }
+        public async Task<IActionResult> LogOut()
+        {
+            await _signInManager.SignOutAsync();
+            return RedirectToAction("Index", "Login");
         }
     }
 }
