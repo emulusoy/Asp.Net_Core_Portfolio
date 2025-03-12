@@ -2,44 +2,55 @@
 
 @{
     ViewData["Title"] = "Index";
-    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    Layout = "~/Views/Shared/_AdminLayoutPage.cshtml";
 }
-
-
-<div class="card-header border-0">
-    <h3 class="mb-0">About Page</h3>
-</div>
-<br />
-<br />
-<br />
-
 
 @using (Html.BeginForm("Index", "About", FormMethod.Post))
 {
 
-    @Html.HiddenFor(x => x.AboutID)
-    @Html.Label("AboutTitle")
-    @Html.TextBoxFor(x => x.AboutTitle, new { @class = "form-control" })
-    <br>
-    @Html.Label("AboutAge")
-    @Html.TextBoxFor(x => x.AboutAge, new { @class = "form-control" })
-    <br />
-    @Html.Label("AboutMail")
-    @Html.TextBoxFor(x => x.AboutMail, new { @class = "form-control" })
-    <br />
-    @Html.Label("AboutPhone")
-    @Html.TextBoxFor(x => x.AboutPhone, new { @class = "form-control" })
-    <br />
-    @Html.Label("AboutAddress")
-    @Html.TextBoxFor(x => x.AboutAddress, new { @class = "form-control" })
-    <br />
-    @Html.Label("AboutImageUrl")
-    @Html.TextBoxFor(x => x.AboutImageUrl, new { @class = "form-control" })
-    <br />
-    @Html.Label("AboutDescription")
-    @Html.TextAreaFor(x => x.AboutDescription, new { @class = "form-control" })
-    <br />
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h1 class="card-description">About Page </h1>
+                <form class="forms-sample">
+                    <div class="form-group">
+                        <label>ID</label>
+                        @Html.TextBoxFor(x => x.AboutID, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label>Title</label>
+                        @Html.TextBoxFor(x => x.AboutTitle, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label>Age</label>
+                        @Html.TextBoxFor(x => x.AboutAge ,new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label>Mail</label>
+                        @Html.TextBoxFor(x => x.AboutMail, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label>Phone</label>
+                        @Html.TextBoxFor(x => x.AboutPhone, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label>Description</label>
+                        @Html.TextBoxFor(x => x.AboutAddress, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label>ImageURL</label>
+                        @Html.TextBoxFor(x => x.AboutImageUrl, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label>Address</label>
+                        @Html.TextAreaFor(x => x.AboutDescription, 10, 4, new { @class = "form-control" })
+                    </div>
+                    <button type="submit" class="btn btn-primary mr-2">Save</button>
+                    <button class="btn btn-dark">Cancel</button>
+                </form>
+            </div>
+        </div>
+    </div>
 
-    <button class="btn btn-outline-dark">Edit</button>
 }
 

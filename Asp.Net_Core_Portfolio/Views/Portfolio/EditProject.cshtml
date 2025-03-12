@@ -14,45 +14,51 @@
 
 @using (Html.BeginForm("EditProject", "Portfolio", FormMethod.Post))
 {
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <p class="card-description"> Portfolio Edit Panel </p>
+                <form class="forms-sample">
+                    @Html.HiddenFor(x => x.PortfolioID)
+                    <br />
+                    <br />
+                    @Html.Label("Portfolio Title")
+                    @Html.TextBoxFor(x => x.PortfolioName, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.PortfolioName)
+                    <br />
+                    <label>Image 1</label>
+                    @Html.TextBoxFor(x => x.PortfolioImageUrl, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.PortfolioImageUrl)
+                    <br />
+                    <label>Image 1</label>
+                    @Html.TextBoxFor(x => x.PortfolioImageUrl2, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.PortfolioImageUrl2)
+                    <br />
+                    <label>Project URL</label>
+                    @Html.TextBoxFor(x => x.PortfolioProjectUrl, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.PortfolioProjectUrl)
+                    <br />
+                    <label>Price</label>
+                    @Html.TextBoxFor(x => x.PortfolioFee, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.PortfolioFee)
+                    <br />
+                    <label>Status</label>
+                    @Html.TextBoxFor(x => x.PortfolioStatus, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.PortfolioStatus)
+                    <br />
+                    <label>Project URL</label>
+                    @Html.TextBoxFor(x => x.PortfolioProjectUrl, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.PortfolioProjectUrl)
+                    <br />
+                    <label>Platform</label>
+                    @Html.TextBoxFor(x => x.PortfolioPlatform, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.PortfolioPlatform)
+                    <br />
+                    <button class="btn btn-info">Save</button>
+                </form>
+            </div>
+        </div>
+    </div>
 
-    @Html.HiddenFor(x=>x.PortfolioID)
-    @Html.Label("Project Name")
-    @Html.TextBoxFor(x => x.PortfolioName, new { @class = "form-control" })
-    @Html.ValidationMessageFor(x => x.PortfolioName)
-    <br>
-    @Html.Label("Image 1")
-    @Html.TextBoxFor(x => x.PortfolioImageUrl, new { @class = "form-control" })
-                //@Html.ValidationMessageFor(x => x.PortfolioImageUrl)
-    <br />
-    @Html.Label("Image 2")
-    @Html.TextBoxFor(x => x.PortfolioImageUrl2, new { @class = "form-control" })
-    @Html.ValidationMessageFor(x => x.PortfolioImageUrl2)
-    <br />
-    @Html.Label("Project URL")
-    @Html.TextBoxFor(x => x.PortfolioProjectUrl, new { @class = "form-control" })
-    @Html.ValidationMessageFor(x => x.PortfolioProjectUrl)
-    <br />
-    @Html.Label("Project FEE")
-    @Html.TextBoxFor(x => x.PortfolioFee, new { @class = "form-control" })
-    <br />
-    @Html.Label("Project Value")
-    @Html.TextBoxFor(x => x.PortfolioValue, new { @class = "form-control" })
-    <br />
-    @Html.Label("Project URL")
-    @Html.TextBoxFor(x => x.PortfolioImg1, new { @class = "form-control" })
-    <br />
-    @Html.Label("Project URL")
-    @Html.TextBoxFor(x => x.PortfolioImg2, new { @class = "form-control" })
-    <br />
-    @Html.Label("Project URL")
-    @Html.TextBoxFor(x => x.PortfolioImg3, new { @class = "form-control" })
-    <br />
-    @Html.Label("Project URL")
-    @Html.TextBoxFor(x => x.PortfolioImg4, new { @class = "form-control" })
-    <br />
-    @Html.Label("Project URL")
-    @Html.TextBoxFor(x => x.PortfolioPlatform, new { @class = "form-control" })
-    <br />
-    <button class="btn btn-outline-dark">Add</button>
 }
 

@@ -11,18 +11,14 @@ namespace Asp.Net_Core_Portfolio.Controllers
 
         public IActionResult Index()
         {
-            ViewBag.v1 = "Experience Page";
-            ViewBag.v2 = "Experience";
-            ViewBag.v3 = "Experience List";
+
             var values = experienceManager.GetList();
             return View(values);
         }
         [HttpGet]
         public IActionResult AddExperience()
         {
-            ViewBag.v1 = "Add Experience Page";
-            ViewBag.v2 = "Experience";
-            ViewBag.v3 = "Add Experience";
+
             return View();
         }
         [HttpPost]
@@ -41,9 +37,7 @@ namespace Asp.Net_Core_Portfolio.Controllers
         [HttpGet]
         public IActionResult EditExperience(int id)
         {
-            ViewBag.v1 = "Edit Experience Page";
-            ViewBag.v2 = "Experience";
-            ViewBag.v3 = "Edit Experience";
+
             var values = experienceManager.TGetById(id);
             return View(values);
         }

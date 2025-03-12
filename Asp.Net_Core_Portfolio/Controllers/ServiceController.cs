@@ -16,9 +16,7 @@ namespace Asp.Net_Core_Portfolio.Controllers
         [HttpGet]
         public IActionResult AddService()
         {
-            ViewBag.v1 = "Add Service Page";
-            ViewBag.v2 = "Service";
-            ViewBag.v3 = "Add Service";
+
             return View();
         }
         [HttpPost]
@@ -37,9 +35,7 @@ namespace Asp.Net_Core_Portfolio.Controllers
         [HttpGet]
         public IActionResult EditService(int id)
         {
-            ViewBag.v1 = "Edit Service Page";
-            ViewBag.v2 = "Service";
-            ViewBag.v3 = "Edit Service";
+         
             var values = serviceManager.TGetById(id);
             return View(values);
         }

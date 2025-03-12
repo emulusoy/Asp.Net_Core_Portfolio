@@ -3,25 +3,23 @@
     ViewData["Title"] = "AddService";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
-
-
-<div class="card-header border-0">
-    <h3 class="mb-0">Add Service Page</h3>
-</div>
-<br />
-<br />
-<br />
-
 @using (Html.BeginForm("AddService", "Service", FormMethod.Post))
 {
-
-    @Html.HiddenFor(x => x.ServiceID)
-    @Html.Label("Experience Name")
-    @Html.TextBoxFor(x => x.ServiceTitle, new { @class = "form-control" })
-    <br>
-    @Html.Label("Experience Date")
-    @Html.TextBoxFor(x => x.ServiceImageUrl, new { @class = "form-control" })  
-    <br />
-    <button class="btn btn-outline-dark">Add</button>
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <p class="card-description"> Add Service Panel </p>
+                <form class="forms-sample">
+                    @Html.Label("Service Title")
+                    @Html.TextBoxFor(x => x.ServiceTitle, new { @class = "form-control" })
+                    <br />
+                    <label>Image URL</label>
+                    @Html.TextBoxFor(x => x.ServiceImageUrl, new { @class = "form-control" })
+                    <br />
+                    <button class="btn btn-outline-info">Save</button>
+                </form>
+            </div>
+        </div>
+    </div>
 }
 

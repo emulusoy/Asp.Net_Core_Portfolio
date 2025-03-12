@@ -5,23 +5,24 @@
 }
 
 
-
-<div class="card-header border-0">
-    <h3 class="mb-0">Edit Service Page</h3>
-</div>
-<br />
-<br />
-<br />
-
 @using (Html.BeginForm("EditService", "Service", FormMethod.Post))
 {
 
-    @Html.HiddenFor(x => x.ServiceID)
-    @Html.Label("Experience Name")
-    @Html.TextBoxFor(x => x.ServiceTitle, new { @class = "form-control" })
-    <br>
-    @Html.Label("Experience Date")
-    @Html.TextBoxFor(x => x.ServiceImageUrl, new { @class = "form-control" })
-    <br />
-    <button class="btn btn-outline-dark">Save</button>
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <p class="card-description"> Service Edit Panel </p>
+                <form class="forms-sample">
+                    @Html.HiddenFor(x => x.ServiceID)
+                    @Html.Label("Service Title")
+                    @Html.TextBoxFor(x => x.ServiceTitle, new { @class = "form-control" })
+                    <br />
+                    <label>Image URL</label>
+                    @Html.TextBoxFor(x => x.ServiceImageUrl, new { @class = "form-control" })
+                    <br />
+                    <button class="btn btn-outline-success">Update</button>
+                </form>
+            </div>
+        </div>
+    </div>
 }

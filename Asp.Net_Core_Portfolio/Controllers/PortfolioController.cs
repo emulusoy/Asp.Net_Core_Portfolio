@@ -13,18 +13,14 @@ namespace Asp.Net_Core_Portfolio.Controllers
         PortfolioManager portfolioManager=new PortfolioManager(new EfPortfolioDal());
         public IActionResult Index()
         {
-            ViewBag.v1 = "Projects Page";
-            ViewBag.v2 = "Projects";
-            ViewBag.v3 = "Projects List";
+
             var values=portfolioManager.GetList();
             return View(values);
         }
         [HttpGet]
         public IActionResult AddProject()
         {
-            ViewBag.v1 = "Add Project Page";
-            ViewBag.v2 = "Project";
-            ViewBag.v3 = "Add Project";
+
             return View();
         }
         [HttpPost]
@@ -55,9 +51,7 @@ namespace Asp.Net_Core_Portfolio.Controllers
         [HttpGet]
         public IActionResult EditProject(int id)
         {
-            ViewBag.v1 = "Edit Project Page";
-            ViewBag.v2 = "Project";
-            ViewBag.v3 = "Edit Project";
+
             var values = portfolioManager.TGetById(id);
             return View(values);
         }

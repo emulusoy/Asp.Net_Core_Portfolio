@@ -1,0 +1,45 @@
+﻿@model EntityLayer.Concrete.Testimonial
+
+@{
+    ViewData["Title"] = "EditTestimonial";
+    Layout = "~/Views/Shared/_AdminLayoutPage.cshtml";
+}
+
+@using (Html.BeginForm("EditTestimonial", "Testimonial", FormMethod.Post))
+{
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <p class="card-description"> Testimonial Edit Panel </p>
+                <form class="forms-sample">
+                    <div class="form-group">
+                        @*<label>ID</label>*@
+                        @Html.HiddenFor(x => x.TestimonialID)
+                    </div>
+                    <div class="form-group">
+                        <label>Name Surname</label>
+                        @Html.TextBoxFor(x => x.TestimonialName, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label>Company</label>
+                        @Html.TextBoxFor(x => x.TestimonialCompany, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label>Title</label>
+                        @Html.TextBoxFor(x => x.TestimonialStatus, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label>Image URL</label>
+                        @Html.TextBoxFor(x => x.TestimonialImageUrl, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label>Comment</label>
+                        @Html.TextAreaFor(x => x.TestimonialComment, 8, 3, new { @class = "form-control" })
+                    </div>
+                    <button type="submit" class="btn btn-outline-primary mr-2">Save</button>
+                    <button class="btn btn-outline-light">Cancel</button>
+                </form>
+            </div>
+        </div>
+    </div>
+}

@@ -11,18 +11,14 @@ namespace Asp.Net_Core_Portfolio.Controllers
         public IActionResult Index()
 
         {
-            ViewBag.v1 = "Skills Page";
-            ViewBag.v2 = "Skills";
-            ViewBag.v3 = "Skill List";
+
             var values=skillManager.GetList();
             return View(values);
         }
         [HttpGet]
         public IActionResult AddSkill() 
         {
-            ViewBag.v1 = "Add Skills Page";
-            ViewBag.v2 = "Skills";
-            ViewBag.v3 = "Add Skill";
+
         return View();  
         }
         [HttpPost]
@@ -41,9 +37,7 @@ namespace Asp.Net_Core_Portfolio.Controllers
         [HttpGet]
         public IActionResult EditSkill(int id)
         {
-            ViewBag.v1 = "Edit Skills Page";
-            ViewBag.v2 = "Skills";
-            ViewBag.v3 = "Edit Skill";
+
             var values = skillManager.TGetById(id);
             return View(values);
         }

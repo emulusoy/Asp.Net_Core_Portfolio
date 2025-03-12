@@ -13,9 +13,6 @@ namespace Asp.Net_Core_Portfolio.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            ViewBag.v1 = "Edit Feature Page";
-            ViewBag.v2 = "Feature";
-            ViewBag.v3 = "Edit Feature";
             var values = featureManager.TGetById(2);
             return View(values);
         }
