@@ -57,11 +57,11 @@ wwwroot\Admin\template\assets\images\carousel\banner_9.jpg
 wwwroot\Admin\template\assets\images\dashboard\circle.png
 wwwroot\Admin\template\assets\images\dashboard\circle.svg
 wwwroot\Admin\template\assets\images\dashboard\Group126@2x.png
-wwwroot\Admin\template\assets\images\dashboard\Img_5.jpg
 wwwroot\Admin\template\assets\images\dashboard\img_1.jpg
 wwwroot\Admin\template\assets\images\dashboard\img_2.jpg
 wwwroot\Admin\template\assets\images\dashboard\img_3.jpg
 wwwroot\Admin\template\assets\images\dashboard\img_4.jpg
+wwwroot\Admin\template\assets\images\dashboard\Img_5.jpg
 wwwroot\Admin\template\assets\images\dashboard\img_6.jpg
 wwwroot\Admin\template\assets\images\dashboard\Rectangle.jpg
 wwwroot\Admin\template\assets\images\faces\face1.jpg
@@ -3525,8 +3525,8 @@ wwwroot\AdminPanel\assets\vendor\sweetalert2\dist\sweetalert2.all.min.js
 wwwroot\AdminPanel\assets\vendor\sweetalert2\dist\sweetalert2.min.css
 wwwroot\AdminPanel\assets\vendor\sweetalert2\dist\sweetalert2.min.js
 wwwroot\AdminPanel\CHANGELOG.md
-wwwroot\AdminPanel\ISSUE_TEMPLATE.md
 wwwroot\AdminPanel\index.html
+wwwroot\AdminPanel\ISSUE_TEMPLATE.md
 wwwroot\AdminPanel\LICENSE.md
 wwwroot\AdminPanel\package.json
 wwwroot\AdminPanel\README.md
