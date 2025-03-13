@@ -168,6 +168,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxTZW5kTWVzc2FnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/eMu/source/repos/Asp.Net_Core_Portfolio/Asp.Net_Core_Portfolio/Views/ErrorPage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JQYWdlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/eMu/source/repos/Asp.Net_Core_Portfolio/Asp.Net_Core_Portfolio/Views/Experience/AddExperience.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZXJpZW5jZVxBZGRFeHBlcmllbmNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -322,4 +326,8 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/eMu/source/repos/Asp.Net_Core_Portfolio/Asp.Net_Core_Portfolio/Views/Testimonial/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGltb25pYWxcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eMu/source/repos/Asp.Net_Core_Portfolio/Asp.Net_Core_Portfolio/Views/WriterUser/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV3JpdGVyVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

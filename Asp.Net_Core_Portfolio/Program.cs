@@ -30,7 +30,9 @@ builder.Services.ConfigureApplicationCookie(options =>
 {
     options.Cookie.HttpOnly = true;
     options.ExpireTimeSpan = TimeSpan.FromMinutes(10);//10 dakika sistemde kalabilirsin
-    options.LoginPath = "/Writer//Login/Index/";
+    options.AccessDeniedPath = "/ErrorPage/Index/";
+    options.LoginPath = "/Writer/Login/Index/";
+    
 });
 
 

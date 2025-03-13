@@ -36,8 +36,6 @@ namespace Asp.Net_Core_Portfolio.Areas.Writer.Controllers
                 {
                     ModelState.AddModelError("", "Wrong username of password.");
                 }
-
-
             }
             return View();
         }

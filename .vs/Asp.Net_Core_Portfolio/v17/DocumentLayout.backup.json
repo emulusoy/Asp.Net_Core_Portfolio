@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{868CD24D-0835-4A89-8656-2A121B824176}|Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio.csproj|c:\\users\\emu\\source\\repos\\asp.net_core_portfolio\\asp.net_core_portfolio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{868CD24D-0835-4A89-8656-2A121B824176}|Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio.csproj|solutionrelative:asp.net_core_portfolio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{868CD24D-0835-4A89-8656-2A121B824176}|Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio.csproj|c:\\users\\emu\\source\\repos\\asp.net_core_portfolio\\asp.net_core_portfolio\\views\\writeruser\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{868CD24D-0835-4A89-8656-2A121B824176}|Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio.csproj|solutionrelative:asp.net_core_portfolio\\views\\writeruser\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868CD24D-0835-4A89-8656-2A121B824176}|Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio.csproj|c:\\users\\emu\\source\\repos\\asp.net_core_portfolio\\asp.net_core_portfolio\\controllers\\writerusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868CD24D-0835-4A89-8656-2A121B824176}|Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio.csproj|solutionrelative:asp.net_core_portfolio\\controllers\\writerusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{868CD24D-0835-4A89-8656-2A121B824176}|Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio.csproj|c:\\users\\emu\\source\\repos\\asp.net_core_portfolio\\asp.net_core_portfolio\\views\\shared\\_adminlayoutpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{868CD24D-0835-4A89-8656-2A121B824176}|Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio.csproj|solutionrelative:asp.net_core_portfolio\\views\\shared\\_adminlayoutpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{868CD24D-0835-4A89-8656-2A121B824176}|Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio.csproj|c:\\users\\emu\\source\\repos\\asp.net_core_portfolio\\asp.net_core_portfolio\\areas\\writer\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{868CD24D-0835-4A89-8656-2A121B824176}|Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio.csproj|solutionrelative:asp.net_core_portfolio\\areas\\writer\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{868CD24D-0835-4A89-8656-2A121B824176}|Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio.csproj|c:\\users\\emu\\source\\repos\\asp.net_core_portfolio\\asp.net_core_portfolio\\views\\admin\\partialsidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "Asp.Net_Core_Portfolio\\Views\\Admin\\PartialSideBar.cshtml",
               "ToolTip": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\Views\\Admin\\PartialSideBar.cshtml",
               "RelativeToolTip": "Asp.Net_Core_Portfolio\\Views\\Admin\\PartialSideBar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMAAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAAALYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-12T11:32:37.061Z",
               "IsPinned": true,
@@ -44,13 +44,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "_AdminLayoutPage.cshtml",
               "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\Views\\Shared\\_AdminLayoutPage.cshtml",
               "RelativeDocumentMoniker": "Asp.Net_Core_Portfolio\\Views\\Shared\\_AdminLayoutPage.cshtml",
               "ToolTip": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\Views\\Shared\\_AdminLayoutPage.cshtml",
               "RelativeToolTip": "Asp.Net_Core_Portfolio\\Views\\Shared\\_AdminLayoutPage.cshtml",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAHEAAABXAAAAAAAAAA==",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAAAMAAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-13T14:56:25.995Z",
               "IsPinned": true,
@@ -62,28 +62,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\Areas\\Writer\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "Asp.Net_Core_Portfolio\\Areas\\Writer\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\Areas\\Writer\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "Asp.Net_Core_Portfolio\\Areas\\Writer\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T15:31:01.242Z",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\Views\\WriterUser\\Index.cshtml",
+              "RelativeDocumentMoniker": "Asp.Net_Core_Portfolio\\Views\\WriterUser\\Index.cshtml",
+              "ToolTip": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\Views\\WriterUser\\Index.cshtml",
+              "RelativeToolTip": "Asp.Net_Core_Portfolio\\Views\\WriterUser\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T16:28:52.366Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\Program.cs",
-              "RelativeDocumentMoniker": "Asp.Net_Core_Portfolio\\Program.cs",
-              "ToolTip": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\Program.cs",
-              "RelativeToolTip": "Asp.Net_Core_Portfolio\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "WriterUserController.cs",
+              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\Controllers\\WriterUserController.cs",
+              "RelativeDocumentMoniker": "Asp.Net_Core_Portfolio\\Controllers\\WriterUserController.cs",
+              "ToolTip": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\Controllers\\WriterUserController.cs",
+              "RelativeToolTip": "Asp.Net_Core_Portfolio\\Controllers\\WriterUserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T15:20:11.006Z",
+              "WhenOpened": "2025-03-13T16:26:49.812Z",
               "EditorCaption": ""
             }
           ]
