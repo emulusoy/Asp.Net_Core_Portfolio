@@ -5,11 +5,20 @@
 }
 <!DOCTYPE html>
 <html lang="en">
-<body>        <!-- partial:partials/_sidebar.html -->
-        <!-- partial -->
-            <!-- partial:partials/_navbar.html -->
-           
-            <!-- partial -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="~/Admin/template/assets/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="~/Admin/template/assets/vendors/css/vendor.bundle.base.css">
+    <link rel="stylesheet" href="~/Admin/template/assets/vendors/jvectormap/jquery-jvectormap.css">
+    <link rel="stylesheet" href="~/Admin/template/assets/vendors/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet" href="~/Admin/template/assets/vendors/owl-carousel-2/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/Admin/template/assets/vendors/owl-carousel-2/owl.theme.default.min.css">
+    <link rel="stylesheet" href="~/Admin/template/assets/css/style.css">
+    <link rel="shortcut icon" href="~/Admin/template/assets/images/favicon.png" />
+</head>
+
+<body> 
                     @await Component.InvokeAsync("FeatureStatistics")
                     <div class="row">
                         <div class="col-md-4 grid-margin stretch-card">
@@ -126,6 +135,5 @@
                             </div>
                         </div>
                     </div>
-    <script src="assets/vendors/js/vendor.bundle.base.js"></script>
 </body>
 </html>
