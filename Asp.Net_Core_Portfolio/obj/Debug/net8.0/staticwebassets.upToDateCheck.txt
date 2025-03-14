@@ -3590,6 +3590,7 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\logo.png
 wwwroot\skydash\CHANGELOG.md
 wwwroot\skydash\docs\documentation.html
 wwwroot\skydash\docs\documentation.js
@@ -5413,6 +5414,7 @@ wwwroot\Template\images\illustrations\website-app.svg
 wwwroot\Template\images\illustrations\work-chat.svg
 wwwroot\Template\images\illustrations\work-together.svg
 wwwroot\Template\images\marker.svg
+wwwroot\Template\images\muavatar.jpg
 wwwroot\Template\images\portfolio\1.jpg
 wwwroot\Template\images\portfolio\1-small.png
 wwwroot\Template\images\portfolio\2.jpg

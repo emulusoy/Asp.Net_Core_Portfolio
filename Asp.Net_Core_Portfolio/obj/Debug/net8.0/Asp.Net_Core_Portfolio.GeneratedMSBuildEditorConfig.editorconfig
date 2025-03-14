@@ -168,8 +168,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxTZW5kTWVzc2FnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/eMu/source/repos/Asp.Net_Core_Portfolio/Asp.Net_Core_Portfolio/Views/ErrorPage/Error404.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JQYWdlXEVycm9yNDA0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/eMu/source/repos/Asp.Net_Core_Portfolio/Asp.Net_Core_Portfolio/Views/ErrorPage/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JQYWdlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eMu/source/repos/Asp.Net_Core_Portfolio/Asp.Net_Core_Portfolio/Views/ExperienceAjax/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZXJpZW5jZUFqYXhcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/eMu/source/repos/Asp.Net_Core_Portfolio/Asp.Net_Core_Portfolio/Views/Experience/AddExperience.cshtml]

@@ -14377,6 +14377,10 @@
       "PackagePath": "staticwebassets\\Template\\images\\marker.svg"
     },
     {
+      "Id": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\wwwroot\\Template\\images\\muavatar.jpg",
+      "PackagePath": "staticwebassets\\Template\\images\\muavatar.jpg"
+    },
+    {
       "Id": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\wwwroot\\Template\\images\\portfolio\\1-small.png",
       "PackagePath": "staticwebassets\\Template\\images\\portfolio\\1-small.png"
     },
@@ -14779,6 +14783,10 @@
     {
       "Id": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\wwwroot\\logo.png",
+      "PackagePath": "staticwebassets\\logo.png"
     },
     {
       "Id": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\wwwroot\\skydash\\CHANGELOG.md",

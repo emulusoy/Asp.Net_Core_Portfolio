@@ -44,7 +44,7 @@ if (!app.Environment.IsDevelopment())
     app.UseExceptionHandler("/Home/Error");
     app.UseHsts();
 }
-
+app.UseStatusCodePagesWithReExecute("/ErrorPage/Error404/");
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseAuthentication();
@@ -58,7 +58,7 @@ app.MapControllerRoute(
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Feature}/{action=Index}/{id?}");
+    pattern: "{controller=Default}/{action=Index}/{id?}");
 
 // app.Run() en sona býrakýlmalý
 app.Run();
