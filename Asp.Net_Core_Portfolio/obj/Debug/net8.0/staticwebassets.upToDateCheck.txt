@@ -197,6 +197,18 @@ wwwroot\Admin\template\assets\images\sprites\jsgrid-icons.png
 wwwroot\Admin\template\assets\images\sprites\logo-mini.svg
 wwwroot\Admin\template\assets\images\sprites\red.png
 wwwroot\Admin\template\assets\images\sprites\yellow.png
+wwwroot\Admin\template\assets\images\theme\angular.jpg
+wwwroot\Admin\template\assets\images\theme\bootstrap.jpg
+wwwroot\Admin\template\assets\images\theme\img-1-1000x600.jpg
+wwwroot\Admin\template\assets\images\theme\profile-cover.jpg
+wwwroot\Admin\template\assets\images\theme\react.jpg
+wwwroot\Admin\template\assets\images\theme\sketch.jpg
+wwwroot\Admin\template\assets\images\theme\team-1.jpg
+wwwroot\Admin\template\assets\images\theme\team-2.jpg
+wwwroot\Admin\template\assets\images\theme\team-3.jpg
+wwwroot\Admin\template\assets\images\theme\team-4.jpg
+wwwroot\Admin\template\assets\images\theme\team-5.jpg
+wwwroot\Admin\template\assets\images\theme\vue.jpg
 wwwroot\Admin\template\assets\js\ace.js
 wwwroot\Admin\template\assets\js\alerts.js
 wwwroot\Admin\template\assets\js\avgrund.js
@@ -3590,7 +3602,6 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
-wwwroot\logo.png
 wwwroot\skydash\CHANGELOG.md
 wwwroot\skydash\docs\documentation.html
 wwwroot\skydash\docs\documentation.js

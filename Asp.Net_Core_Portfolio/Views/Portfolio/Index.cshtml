@@ -4,91 +4,100 @@
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_AdminLayoutPage.cshtml";
 }               
-
-
-
 <div class="row">
     <div class="col">
         <div class="card bg-default shadow">
             <div class="card-header bg-transparent border-0">
-                <h3 class="text-white mb-0">Projects</h3>
+                <h3 class="text-white mb-0">My Projects</h3>
             </div>
             <div class="table-responsive">
                 <table class="table align-items-center table-dark table-flush">
-                    
-                    <thead class="thead-dark">                    
+                    <thead class="thead-dark">
                         <tr>
+                            @*<th scope="col" class="sort" data-sort="name">Platform</th>*@
                             <th scope="col" class="sort" data-sort="name">Project</th>
-                            <th scope="col" class="sort" data-sort="budget">Fee</th>
+                            <th scope="col" class="sort" data-sort="budget">Budget</th>
                             <th scope="col" class="sort" data-sort="status">Status</th>
                             <th scope="col">Images</th>
-                            <th scope="col" class="sort" data-sort="completion">###</th>
+                            <th scope="col" class="sort" data-sort="completion">Completion</th>
+                            <th scope="col">Delete</th>
                             <th scope="col">Edit</th>
                         </tr>
                     </thead>
                     <tbody class="list">
                         @foreach (var item in Model)
                         {
-                        <tr>
-                            <th scope="row">
-                                <div class="media align-items-center">
-                                    <a href="#" class="avatar rounded-circle mr-3">
+                            <tr>
+                                <th scope="row">
+                                    <div class="media align-items-center">
+                                        <a href="#" class="avatar rounded-circle mr-3">
                                             <img alt="Image placeholder" src="@item.PortfolioPlatform">
-                                    </a>
-                                    <div class="media-body">
-                                        <span class="name mb-0 text-sm">@item.PortfolioName</span>
-                                    </div>
-                                </div>
-                            </th>
-                            <td class="budget">
-                                @item.PortfolioFee
-                            </td>
-                            <td>
-                                <span class="badge badge-dot mr-4">
-                                    <i class="bg-success"></i>
-                                    <span class="status">pending</span>
-                                </span>
-                            </td>
-                            <td>
-                                <div class="avatar-group">
-                                    <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Ryan Tompson">
-                                        <img alt="Image placeholder" src="~/AdminPanel/assets/img/theme/team-1.jpg">
-                                    </a>
-                                    <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Romina Hadid">
-                                            <img alt="Image placeholder" src="/AdminPanel/assets/img/theme/team-2.jpg">
-                                    </a>
-                                    <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Alexander Smith">
-                                            <img alt="Image placeholder" src="/AdminPanel/assets/img/theme/team-3.jpg">
-                                    </a>
-                                    <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Jessica Doe">
-                                            <img alt="Image placeholder" src="/AdminPanel/assets/img/theme/team-4.jpg">
-                                    </a>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="d-flex align-items-center">
-                                    <span class="completion mr-2">@item.PortfolioValue%</span>
-                                    <div>
-                                        <div class="progress">
-                                                <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="@item.PortfolioValue" aria-valuemin="0" aria-valuemax="100" style="width: @item.PortfolioValue%;"></div>
+                                        </a>
+                                        <div class="media-body">
+                                            <span class="name mb-0 text-sm">@item.PortfolioName</span>
                                         </div>
                                     </div>
-                                </div>
-                            </td>
-                            <td>
-                                <a href="/Portfolio/DeleteProject/@item.PortfolioID" class="btn btn-outline-danger">x</a>
-                                    <a href="/Portfolio/EditProject/@item.PortfolioID" class="btn btn-outline-light">Edit</a>
-                            </td>
-                        </tr>    
+                                </th>
+                                <td class="budget">
+                                    @item.PortfolioFee USD
+                                </td>
+                                <td>
+                                    <span class="badge badge-dot mr-4">
+                                        <i class="bg-success"></i>
+                                        <span class="status">completed</span>
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="avatar-group">
+                                        <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Ryan Tompson">
+                                            <img alt="Image placeholder" src="~/Template/images/team/emp-1.jpg">
+                                        </a>
+                                        <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Romina Hadid">
+                                            <img alt="Image placeholder" src="~/Template/images/team/emp-2.jpg">
+                                        </a>
+                                        <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Alexander Smith">
+                                            <img alt="Image placeholder" src="~/Template/images/team/emp-3.jpg">
+                                        </a>
+                                        <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Jessica Doe">
+                                            <img alt="Image placeholder" src="~/Template/images/team/emp-4.jpg">
+                                        </a>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <span class="completion mr-2">@item.PortfolioStatus%</span>
+                                        <div>
+                                            <div class="progress">
+                                                <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="@item.PortfolioStatus" aria-valuemin="0" aria-valuemax="100" style="width: @item.PortfolioStatus%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <a href="/Portfolio/DeleteProject/@item.PortfolioID" class="btn btn-outline-danger delete-btn">Delete</a>
+                                </td>
+                                <td>
+                                    <a href="/Portfolio/EditProject/@item.PortfolioID" class="btn btn-outline-warning">Edit</a>
+                                </td>
+                            </tr>
                         }
                     </tbody>
-                    
                 </table>
-
-                   
             </div>
         </div>
     </div>
 </div>
 <br />
-<a href="/Portfolio/AddProject/" class="btn btn-outline-primary">Add</a>
+<a href="/Portfolio/AddProject/" class="btn btn-primary">New Project</a>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        document.querySelectorAll('.delete-btn').forEach(button => {
+            button.addEventListener('click', function (event) {
+                if (!confirm('Gerçekten silmek istiyor musunuz?')) {
+                    event.preventDefault();
+                }
+            });
+        });
+    });
+</script>
+

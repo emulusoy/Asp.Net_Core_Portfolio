@@ -1,15 +1,20 @@
-﻿using BusinessLayer.Concrete;
+﻿using BusinessLayer.Abstract;
+using BusinessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Asp.Net_Core_Portfolio.Controllers
 {
+    [AllowAnonymous]
     public class DefaultController : Controller
     {
+        SocialMediaManager socialMediaManager = new SocialMediaManager(new EfSocialMediaDal());
         public IActionResult Index()
         {
-            return View();
+            var social = socialMediaManager.GetList();
+            return View(social);
         }
         public PartialViewResult HeaderPartial()
         {

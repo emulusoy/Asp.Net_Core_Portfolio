@@ -11221,6 +11221,54 @@
       "PackagePath": "staticwebassets\\Admin\\template\\assets\\images\\sprites\\yellow.png"
     },
     {
+      "Id": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\wwwroot\\Admin\\template\\assets\\images\\theme\\angular.jpg",
+      "PackagePath": "staticwebassets\\Admin\\template\\assets\\images\\theme\\angular.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\wwwroot\\Admin\\template\\assets\\images\\theme\\bootstrap.jpg",
+      "PackagePath": "staticwebassets\\Admin\\template\\assets\\images\\theme\\bootstrap.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\wwwroot\\Admin\\template\\assets\\images\\theme\\img-1-1000x600.jpg",
+      "PackagePath": "staticwebassets\\Admin\\template\\assets\\images\\theme\\img-1-1000x600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\wwwroot\\Admin\\template\\assets\\images\\theme\\profile-cover.jpg",
+      "PackagePath": "staticwebassets\\Admin\\template\\assets\\images\\theme\\profile-cover.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\wwwroot\\Admin\\template\\assets\\images\\theme\\react.jpg",
+      "PackagePath": "staticwebassets\\Admin\\template\\assets\\images\\theme\\react.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\wwwroot\\Admin\\template\\assets\\images\\theme\\sketch.jpg",
+      "PackagePath": "staticwebassets\\Admin\\template\\assets\\images\\theme\\sketch.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\wwwroot\\Admin\\template\\assets\\images\\theme\\team-1.jpg",
+      "PackagePath": "staticwebassets\\Admin\\template\\assets\\images\\theme\\team-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\wwwroot\\Admin\\template\\assets\\images\\theme\\team-2.jpg",
+      "PackagePath": "staticwebassets\\Admin\\template\\assets\\images\\theme\\team-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\wwwroot\\Admin\\template\\assets\\images\\theme\\team-3.jpg",
+      "PackagePath": "staticwebassets\\Admin\\template\\assets\\images\\theme\\team-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\wwwroot\\Admin\\template\\assets\\images\\theme\\team-4.jpg",
+      "PackagePath": "staticwebassets\\Admin\\template\\assets\\images\\theme\\team-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\wwwroot\\Admin\\template\\assets\\images\\theme\\team-5.jpg",
+      "PackagePath": "staticwebassets\\Admin\\template\\assets\\images\\theme\\team-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\wwwroot\\Admin\\template\\assets\\images\\theme\\vue.jpg",
+      "PackagePath": "staticwebassets\\Admin\\template\\assets\\images\\theme\\vue.jpg"
+    },
+    {
       "Id": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\wwwroot\\Admin\\template\\assets\\js\\ace.js",
       "PackagePath": "staticwebassets\\Admin\\template\\assets\\js\\ace.js"
     },
@@ -14783,10 +14831,6 @@
     {
       "Id": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
-    },
-    {
-      "Id": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\wwwroot\\logo.png",
-      "PackagePath": "staticwebassets\\logo.png"
     },
     {
       "Id": "C:\\Users\\eMu\\source\\repos\\Asp.Net_Core_Portfolio\\Asp.Net_Core_Portfolio\\wwwroot\\skydash\\CHANGELOG.md",
