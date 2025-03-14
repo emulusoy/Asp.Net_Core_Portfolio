@@ -3,4 +3,9 @@
 https://go.microsoft.com/fwlink/?LinkID=208121.
 -->
 <Project>
+  <PropertyGroup>
+    <History>True|2025-03-14T13:26:02.9306265Z||;False|2025-03-14T16:23:32.4599162+03:00||;</History>
+    <LastFailureDetails />
+    <_PublishTargetUrl>C:\Users\eMu\Desktop\web</_PublishTargetUrl>
+  </PropertyGroup>
 </Project>

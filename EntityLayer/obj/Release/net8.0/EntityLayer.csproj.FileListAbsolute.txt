@@ -1,0 +1,15 @@
+C:\Users\eMu\source\repos\Asp.Net_Core_Portfolio\EntityLayer\bin\Release\net8.0\EntityLayer.deps.json
+C:\Users\eMu\source\repos\Asp.Net_Core_Portfolio\EntityLayer\bin\Release\net8.0\EntityLayer.runtimeconfig.json
+C:\Users\eMu\source\repos\Asp.Net_Core_Portfolio\EntityLayer\bin\Release\net8.0\EntityLayer.dll
+C:\Users\eMu\source\repos\Asp.Net_Core_Portfolio\EntityLayer\bin\Release\net8.0\EntityLayer.pdb
+C:\Users\eMu\source\repos\Asp.Net_Core_Portfolio\EntityLayer\obj\Release\net8.0\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\eMu\source\repos\Asp.Net_Core_Portfolio\EntityLayer\obj\Release\net8.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eMu\source\repos\Asp.Net_Core_Portfolio\EntityLayer\obj\Release\net8.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\eMu\source\repos\Asp.Net_Core_Portfolio\EntityLayer\obj\Release\net8.0\EntityLayer.AssemblyInfo.cs
+C:\Users\eMu\source\repos\Asp.Net_Core_Portfolio\EntityLayer\obj\Release\net8.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\eMu\source\repos\Asp.Net_Core_Portfolio\EntityLayer\obj\Release\net8.0\EntityLayer.sourcelink.json
+C:\Users\eMu\source\repos\Asp.Net_Core_Portfolio\EntityLayer\obj\Release\net8.0\EntityLayer.dll
+C:\Users\eMu\source\repos\Asp.Net_Core_Portfolio\EntityLayer\obj\Release\net8.0\refint\EntityLayer.dll
+C:\Users\eMu\source\repos\Asp.Net_Core_Portfolio\EntityLayer\obj\Release\net8.0\EntityLayer.pdb
+C:\Users\eMu\source\repos\Asp.Net_Core_Portfolio\EntityLayer\obj\Release\net8.0\EntityLayer.genruntimeconfig.cache
+C:\Users\eMu\source\repos\Asp.Net_Core_Portfolio\EntityLayer\obj\Release\net8.0\ref\EntityLayer.dll
