@@ -7,6 +7,7 @@ namespace Asp.Net_Core_Portfolio.Areas.Writer.Controllers
 {
     [Area("Writer")]//hangi area ile calisacaginiz belirliyoruZ
     [Authorize]
+    [AllowAnonymous]
     public class DefaultController : Controller
     {
         AnnouncementManager announcementManager = new AnnouncementManager(new EfAnnouncementDal());

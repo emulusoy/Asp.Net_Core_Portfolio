@@ -14,7 +14,7 @@ namespace DataAccessLayer.Concrete
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=MULUSOY\\SQLEXPRESS01;database=AspNetCorePortfolioDB;Integrated Security=True;TrustServerCertificate=True;");
+            optionsBuilder.UseSqlServer("server=77.245.159.121\\MSSQLSERVER2022;database=AspNetCorePortfolioDB;user=user1; password=Mu123456.");
         }
         public DbSet<About> Abouts { get; set; }
         public DbSet<Contact> Contacts { get; set; }
