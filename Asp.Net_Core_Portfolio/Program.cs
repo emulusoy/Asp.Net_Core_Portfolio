@@ -16,7 +16,15 @@ builder.Services.AddMvc(config =>
 {
     var policy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
     config.Filters.Add(new AuthorizeFilter(policy));
+}).ConfigureApplicationPartManager(m =>
+{
+    var defaultController = m.ApplicationParts.FirstOrDefault(p => p.Name == "DefaultController");
+    if (defaultController != null)
+    {
+        m.ApplicationParts.Remove(defaultController);
+    }
 });
+
 
 
 builder.Services.ConfigureApplicationCookie(options =>
@@ -27,7 +35,6 @@ builder.Services.ConfigureApplicationCookie(options =>
     options.LoginPath = "/Writer/Login/Index/";
 
 });
-
 
 var app = builder.Build();
 
